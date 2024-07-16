@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTECA Agricultura Sustentable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Asegura que no haya márgenes predeterminados */
+            padding: 0; /* Asegura que no haya relleno predeterminado */
+            background-image: url(https://scontent.fcjs3-2.fna.fbcdn.net/v/t39.30808-6/449063243_122120018144313483_4459237819326818721_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7dBxICG5rSsQ7kNvgEqej8b&_nc_ht=scontent.fcjs3-2.fna&oh=00_AYA2RG5iFvj66uTGLboo7AI6WPfH8XAHM_uS12cnAIwaPA&oe=669A3B57); /* URL de la imagen de fondo */
+            background-size: cover; /* Para cubrir todo el fondo */
+            background-position: center; /* Para centrar la imagen de fondo */
+           
+        }
+
+        .header {
+            background-color: #8c1b4f;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .header .Logo{
+            flex: 1;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+            position: relative;
+            top: -65px;
+            left: 35px;
+            
+        }
+        .nav {
+            
+            background-color: #8c1b4f;
+            overflow: hidden;
+        }
+        .nav a {
+        
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 10px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: rgba(247, 231, 231, 0.5);
+            color:rgb(247, 201, 75);
+            border-radius: 50px;
+        }
+        
+        .social-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
+            margin: 1em 0;
+            width: 30px;
+            
+        }
+        .social-container a {
+            color: white;
+            background-color: #8c1b4f;
+            padding: 0.5em;
+            margin: 0.5em;
+            border-radius: 50%;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center ;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 1rem;
+            
+            margin-left: 3rem;
+            
+            
+            
+        }
+        .ute {
+           
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            position: relative;
+            top:-280px;
+            left: 55px;
+            height: 41px;
+            
+        }
+        .ute h2{
+            background-color: rgba(96, 177, 49, 0.938);
+            padding: 5px;
+            border-radius: 10px;
+            margin: 25px;
+           
+            
+        }
+        .card {
+            background-color: rgba(138, 17, 67, 0.6); /* color con 60% de opacidad */
+            color: white;
+            margin: 15px;
+            padding: 5px;
+            border-radius: 10px;
+            width: calc(45% - 2em); /* Calcula el ancho de manera más precisa */
+            max-width: 500px; /* Ajusta el ancho máximo según sea necesario */
+            position: relative;
+            top: -270px;
+            left: 10px;
+        }
+        .footer {
+            background-color: #204830;
+            color: white;
+            padding: 40px 20px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .footer .logo {
+            flex: 1;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .footer .confidentiality {
+            flex: 2;
+            font-size: 14px;
+            margin-left: 20px;
+            text-align: left;
+        }
+        .footer .contact-info {
+            flex: 1;
+            font-size: 14px;
+            text-align: left;
+        }
+        .footer .credits {
+            font-size: 12px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .footer .social-media {
+            text-align: left;
+        }
+        .footer .social-media a {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        @media screen and (min-width: 600px) {
+            .content {
+                justify-content: space-evenly;
+            }
+
+            .card {
+                width: calc(45% - 2em);
+            }
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>UTECAN - Universidad Tecnológica de Candelaria</h1>
+        <div class="Logo">
+            <img src="https://th.bing.com/th/id/R.a6aa97a43978550386b1ead835242a9b?rik=HP2f4lPXDVHYJQ&riu=http%3a%2f%2futecan.edu.mx%2fimages%2flogo.png&ehk=FUnNDiI0KVNd4qx9ohStRqnYzZ3amWOowSyHJ4lVqaw%3d&risl=&pid=ImgRaw&r=0" alt="Logo Uteca" style="height: 40px;">
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#universidad">Universidad</a>
+        <a href="#finanza">Finanza</a>
+        <a href="#transparencia">Transparencia</a>
+        <a href="#directorio">Directorio</a>
+    </div>
+    
+    <div class="social-container">
+        <a href="https://www.facebook.com/UniversidadTecnologicaDeCandelariaUTECAN" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/@universidadtecnologicadeca4195" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    
+        <div class="ute">
+            <h2>T.S.U en Agricultura Sustentable y Protegida</h2>
+        </div>
+    
+    <div class="content">
+        
+        <div class="card">
+            <h3>Competencias Específicas:</h3>
+            <ul>
+                <li>Desarrollar el proceso de producción agrícola a través de técnicas agronómicas, para garantizar su rentabilidad y contribuir a la sustentabilidad y desarrollo de la región.</li>
+                <li>Estructurar e implementar sistemas de agricultura protegida, mediante el control y la automatización del proceso, para garantizar la productividad y contribuir a la sustentabilidad de los recursos agrícolas.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Ocupaciones Profesionales:</h3>
+            <ul>
+                <li>Supervisor de Producción Agrícola.</li>
+                <li>Consultor y Asesor Técnico.</li>
+                <li>Coordinador de Producción.</li>
+                <li>Técnico Especializado.</li>
+                <li>Jefe de área de producción agrícola.</li>
+                <li>Asistente de investigación.</li>
+                <li>Jefe de ventas de productos y equipos agrícolas.</li>
+                <li>Supervisor de instalación de infraestructura y equipo agrícola.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="ute">
+        <h2>ING. en Agricultura Sustentable y Protegida</h2>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h3>Competencias Específicas:</h3>
+            <ul>
+                <!-- Lista vacía ya que no hay información proporcionada -->
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Ocupaciones Profesionales:</h3>
+            <ul>
+                <!-- Lista vacía ya que no hay información proporcionada -->
+            </ul>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="logo">
+        <img src="https://th.bing.com/th/id/R.a6aa97a43978550386b1ead835242a9b?rik=HP2f4lPXDVHYJQ&riu=http%3a%2f%2futecan.edu.mx%2fimages%2flogo.png&ehk=FUnNDiI0KVNd4qx9ohStRqnYzZ3amWOowSyHJ4lVqaw%3d&risl=&pid=ImgRaw&r=0" alt="Logo UTECAN" style="height: 40px;">
+    </div>
+    <div class="confidentiality">
+        <h3>Confidencialidad</h3>
+        <p>La información contenida en correos institucionales, es de carácter confidencial y su tratamiento es con estricta observancia a los principios de licitud, finalidad, lealtad, consentimiento, calidad, proporcionalidad, información y responsabilidad establecidos en la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados.</p>
+        <div class="social-media">
+            <h3>Síguenos en</h3>
+            <p><a href="https://www.facebook.com/UniversidadTecnologicaDeCandelariaUTECAN" target="_blank" style="color: white;">f</a></p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <h3>Contáctanos</h3>
+        <p>Universidad Tecnológica de Candelaria<br>
+        Carretera Benito Juárez<br>
+        Candelaria KM 22.5 Ej. Francisco J. Mujica<br>
+        Candelaria, Campeche, México<br>
+        C.P. 24338</p>
+        <div class="credits">
+            <p>Hecho con <span style="color: red;">❤</span> por KURO卐</p>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
